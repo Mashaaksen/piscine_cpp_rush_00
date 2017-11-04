@@ -6,7 +6,7 @@
 class Hero: public Player
 {
 public:
-    Hero();
+    Hero(int x, int y);
     Hero(const Hero &obj);
 Hero &operator=(const Hero &obj);
     ~Hero();

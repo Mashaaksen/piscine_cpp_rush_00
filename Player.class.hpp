@@ -16,6 +16,9 @@ public:
     void move(int x, int y); //на какое количиство х или у необходимо сдвинуться;
     int overlap_coord(int x, int y);
     void die();
+    int get_x();
+    int get_y();
+    int get_char();
     ~Player();
 };
 

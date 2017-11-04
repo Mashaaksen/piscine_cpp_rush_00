@@ -43,7 +43,20 @@ int   Player::overlap_coord(int x, int y)
         return (1);
     }
 
+int  Player::get_x()
+    {
+        return (this->pos_x);
+    }
+
+int  Player::get_y()
+    {
+        return (this->pos_y);
+    }
+
+int  Player::get_type()
+    {
+        return (this->type);
+    }
     Player::~Player()
     {
-        std::cout<<this->type<<std::endl;
     }

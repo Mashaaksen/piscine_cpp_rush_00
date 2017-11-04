@@ -6,7 +6,7 @@
 class Attack: public Player
 {
 public:
-    Attack();
+    Attack(int x, int y);
     Attack(const Attack &obj);
 Attack &operator=(const Attack &obj);
     ~Attack();

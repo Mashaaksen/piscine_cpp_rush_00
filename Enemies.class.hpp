@@ -6,7 +6,7 @@
 class Enemies: public Player
 {
 public:
-    Enemies();
+    Enemies(/*int y, int start_win, int end_win*/);
     Enemies(const Enemies &obj);
 Enemies &operator=(const Enemies &obj);
     ~Enemies();

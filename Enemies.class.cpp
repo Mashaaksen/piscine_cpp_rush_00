@@ -1,6 +1,6 @@
 #include "Enemies.class.hpp"
 
-    Enemies::Enemies()
+    Enemies::Enemies(/*int y, int start_win, int end_win*/)
     {
         this->type = 'x';
     }
